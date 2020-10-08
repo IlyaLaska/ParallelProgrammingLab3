@@ -45,8 +45,8 @@ if (worker.isMainThread) {
         console.log(`BAD MAX:  `, badMax[0]);
         console.log(`GOOD MIN: `, goodMin[0]);
         console.log(`BAD MIN:  `, badMin[0]);
-        console.log(data.includes(goodMax[0]));
-        console.log(data.includes(goodMin[0]));
+        console.log('Array includes found Max value: ', data.includes(goodMax[0]));
+        console.log('Array includes found Min value: ', data.includes(goodMin[0]));
     });
 } else {
     const {

@@ -4,7 +4,7 @@ const worker = require('worker_threads');
 const {Worker} = worker;
 
 const arrLength = 1000000;
-// const maxNum = 9999999;
+
 const threadCount = 16;
 const chunkSize = Math.ceil(arrLength / threadCount);
 const maxNum = 2147483647;
